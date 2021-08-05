@@ -1,0 +1,207 @@
+
+  
+  body::-webkit-scrollbar {
+    width: 12px;       
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
+  }
+*{
+    font-size:1.05rem;
+    color: black;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+
+video{
+    object-fit: cover;
+    width: 99vw;
+    height: 80vh;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    z-index: 1;
+    opacity: 0.4;
+   
+  
+}
+
+
+.header-box{
+    top: 75px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0.2);
+    font-size: 100px;
+   
+}
+.header-box p{
+    color:white;
+    z-index: 2;
+    font-size: 2.4rem !important;
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color:black;
+    z-index: 2;
+    font-size:4.8rem !important;
+    cursor:pointer;
+
+
+}
+.any{
+    
+    position: fixed; 
+   right: 0; 
+   left: 0; 
+   z-index: 999;
+}
+
+
+section{
+    margin-bottom: 100px;
+}
+/* body{
+/* background: linear-gradient(to right,white,rgb(240, 228, 205)); */
+   
+  
+#contact .col-md-4:nth-of-type(1),
+#contact .col-md-4:nth-of-type(2){
+    border: 1px solid black;
+    border-style: none solid none none;
+   
+}
+
+#contact h4{
+    cursor: pointer;
+}
+#contact h4:after{
+    display: block;
+    content: '';
+    border-bottom: 2px solid black;
+    transform: scaleX(0);
+transition: transform 250ms ease-in-out ;
+    width: 195px;
+
+}
+#contact h4:hover::after{
+   transform: scaleX(1);
+   
+}
+.images{
+    background-image: url('images/gala1.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.9;
+   
+    
+    
+    
+   
+}
+.images h1{
+   margin-left: 1130px;
+   padding-top: 40px;
+   margin-bottom: 10px;
+ 
+  
+   
+}
+.images p{
+    margin-left: 900px;
+    padding-top: 30px;
+    
+}
+#menu button{
+    margin-left: 1130px;
+   padding-top: 40px;
+   border: 1px solid black;
+   width: 120px;
+   height: 60px;
+   padding:6px;
+   border-radius: 40px;
+   background-color: black;
+   color: white;
+   font-size: 25px;
+   transition: 0.15s ease-in;
+  
+}
+#menu button:hover{
+ border: 1px solid black;
+ background-color: white;
+ color: rgb(90, 87, 87);
+}
+#restaurant button{
+    border: 1px solid black;
+   width: 150px;
+   height: 50px;
+   padding:6px;
+   border-radius: 40px;
+   background-color: black;
+   color: rgb(255, 255, 255);
+   font-size: 18px;
+   transition: 0.15s ease-in;
+
+}
+#restaurant button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: rgb(90, 87, 87);
+    padding-left: 20px;
+   }
+
+#restaurant .row{
+    border: 2px dashed black;
+    margin-top:50px;
+    width: 1500px;
+   
+    border-radius: 20px;
+  
+}
+
+#restaurant img{
+    margin: 20px;
+}
+.containers{
+    margin: 20px;
+}
+.rows{
+    margin-left: 270px;
+}
+@media only screen and (min-width:800px){
+
+    #restaurant {
+        max-width: 50%;
+        height: auto;
+       
+    }
+    footer{
+        max-width: 100%;
+    };
+    
+    
+}
+
+
+
+
+
+
+
+
